@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/Sladewide/ziye12-copy.git ~/JavaScript
+          git clone https://github.com/Sladewide/Script-LYM.git ~/JavaScript
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1
         with:
@@ -29,6 +29,7 @@ jobs:
         if: env.ZM_zhimabody
         run: |
           cd ~/JavaScript
+          git checkout ziye12
           npm install
       - name: '运行 【芝嫲】'
         if: env.ZM_zhimabody
