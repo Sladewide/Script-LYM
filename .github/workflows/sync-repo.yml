@@ -25,5 +25,5 @@ jobs:
         with:
           source_repo: "https://github.com/ziye66666/JavaScript.git"
           source_branch: "main"
-          destination_branch: "master"
+          destination_branch: "ziye12"
           github_token: ${{ secrets.PAT }}
