@@ -28,7 +28,8 @@ jobs:
       - name: npm install
         if: env.BBB_bububaoTOKEN
         run: |
-          cd ~/JavaScript
+          cd ~/Script-LYM
+          git checkout ziye12
           npm install
       - name: '运行--步步宝--'
         if: env.BBB_bububaoTOKEN
