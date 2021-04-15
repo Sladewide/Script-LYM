@@ -23,16 +23,16 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE.git"
+          source_repo: "https://github.com/ziye888/JavaScript.git"
           source_branch: "main"
           destination_branch: "ziye12"
           github_token: ${{ secrets.PAT }}
-      - name: sync Sunert-Scripts
-        uses: repo-sync/github-sync@v2
-        if: env.PAT
-        with:
-          source_repo: "https://github.com/Sunert/Scripts.git"
-          source_branch: "master"
-          destination_branch: "Sunert"
-          github_token: ${{ secrets.PAT }}
+      # - name: sync Sunert-Scripts
+      #   uses: repo-sync/github-sync@v2
+      #   if: env.PAT
+      #   with:
+      #     source_repo: "https://github.com/Sunert/Scripts.git"
+      #     source_branch: "master"
+      #     destination_branch: "Sunert"
+      #     github_token: ${{ secrets.PAT }}
           
